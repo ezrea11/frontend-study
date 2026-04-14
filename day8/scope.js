@@ -56,3 +56,10 @@ console.log("=== 10. 实验4B： const对象不能重新赋值 ===");
 const user2 = {name : "James"};
 //user2 = {name: "Sky"}; //报错：不能重新赋值
 
+console.log("===== 11. var 也受函数作用域限制 =====");
+function demoVarScope() {
+    var x = 10;
+    console.log(x);
+}
+demoVarScope();
+// console.log(x); // 打开会报错
