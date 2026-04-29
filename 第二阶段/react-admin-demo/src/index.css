@@ -33,9 +33,19 @@ body {
 }
 
 .menu-item {
+  display: block;
+  width: 100%;
+  margin-top: 12px;
   padding: 10px 12px;
+  border: none;
   border-radius: 8px;
+  text-align: left;
   cursor: pointer;
+}
+
+.menu-item.active{
+  background-color: #334155;
+  color: white;
 }
 
 .menu-item:hover {
