@@ -67,3 +67,21 @@ body {
 .content p {
   color: #4b5563;
 }
+
+.nav {
+  display: flex;
+  gap: 16px;
+  padding: 16px;
+  border-bottom: 1px solid #ddd;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #555;
+  font-weight: 500;
+}
+
+.nav-link.active {
+  color:#1677ff;
+  font-weight: 700;
+}
