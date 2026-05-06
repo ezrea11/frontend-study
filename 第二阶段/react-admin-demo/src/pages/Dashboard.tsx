@@ -1,5 +1,7 @@
+import AdminLayout from "../layouts/AdminLayout";  
+
 function Dashboard() {
-  return <h1>Dashboard Page</h1>;
+  return <AdminLayout />;
 }
 
 export default Dashboard;
