@@ -58,3 +58,25 @@
 - 用 `activePage` state 管理当前选中页面
 - Sidebar 根据 `activePage` 判断菜单高亮
 - MainContent 根据 `activePage` 显示对应内容
+
+---
+
+## Day11 - Users Page v1
+
+### 今日功能
+完成 Users Page v1：用户列表表格展示功能。
+
+### 修改文件
+- `第二阶段/react-admin-demo/src/components/UserTable.tsx`
+- `第二阶段/react-admin-demo/src/components/MainContent.tsx`
+- `第二阶段/react-admin-demo/src/index.css`
+- `第二阶段/progress-log.md`
+
+### 核心变化
+- 新增本地 mock 用户数据
+- 新增 `UserTable` 组件
+- 使用 `mockUsers.map` 渲染用户列表
+- 使用 `table` 展示 `name / role / status / createdAt` 四个字段
+- 将 `UserTable` 接入 `MainContent` 的 Users 区域
+- 新增 `.user-table` 相关样式，让表格更接近后台管理系统页面
+

@@ -1,3 +1,5 @@
+import UserTable from "./UserTable";
+
 type MainContentProps = {
     activePage: string;
 };
@@ -12,7 +14,7 @@ function MainContent(props:MainContentProps){
             )}
 
             {props.activePage === "Users" &&(
-                <p>This is the user management page.</p>
+                <UserTable />
             )}
 
             {props.activePage === "Settings" && (
